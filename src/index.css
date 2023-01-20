@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Noto+Serif+TC:wght@700&family=Raleway:ital,wght@0,400;0,700;1,700&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  margin: 0;
+  font-family: "Thasadith", sans-serif;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2 {
+  font-family: "Fugaz One", cursive;
+}
+h2 {
+  font-size: 17;
+  text-align: "center";
+  color: "#78290f";
+}
+
+.Chinese {
+  font-family: "Noto Serif TC", serif;
+}
+.menuItem{
+  text-align: center;
+  color: #ffffff;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+.menuItemCh{
+  font-family: "Noto Serif TC", serif;
+  margin-top: 30px;
+  font-size: larger;
+
+}
+.menuItemEn{
+  font-family: "Thasadith", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+
+.h1,.h2 {
+  font-family: "Fugaz One", cursive;
+}
+
+.tag {
+  background-color:#f0d8d8;
+  font-size: smaller;
+  margin: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10px;
+}
+
+.parkingOptions{
+  box-shadow: inset 0px 0px 5px rgba(86, 85, 85, 0.3);
+}
+
+button {
+  margin: 3%;
+  width: 40%;
+  background: #870000;
+  border-radius: 999px;
+  box-shadow: gray 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Thasadith", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  word-break: break-word;
+  border: 0;
+}
+
+.fullScreenBtn{
+  width: 70%;
+}
+
+
+header{
+  background-color: #870000;
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.divider{
+  font-size: small;
+  margin-top: 30px;
+  text-align: center;
+  color:orange
+}
