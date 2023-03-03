@@ -30,7 +30,7 @@ function Arrived() {
             color: "#78290f",
           }}
         >
-          Call Oliver
+          Call us
         </span>
       </div>
 
@@ -40,7 +40,7 @@ function Arrived() {
           color: "#495057",
         }}
       >
-        226-559-3112
+        123-456-7890
       </p>
 
       <div
@@ -66,7 +66,7 @@ function Arrived() {
             color: "#78290f",
           }}
         >
-         WiFi
+          WiFi
         </span>
       </div>
 
@@ -76,31 +76,31 @@ function Arrived() {
           color: "#495057",
         }}
       >
-        Name: 811
+        Name: WeLoveParty
         <br />
-        Password: MattBellaOliver
+        Password: WeDoNotActually
       </p>
       <div
-      style={{
-        marginTop:30,
-        marginBottom:30,
-        textAlign:'center',
-      }}>
-      <div
-     >
-        <a
-          href="https://open.spotify.com/playlist/0gi12rByjBf4OoOAet1vem?si=TLQwBbHURC6AnEQSfH7E-A&pt=e74ee13bd0cc193d3d03a77ebd9935e0"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="fullScreenBtn">Add Songs to Playlist</button>
-        </a>
-      </div>
-      <div>
-      <Link to="/Menu">
-        <button className="fullScreenBtn">Food Menu</button>
-        </Link>
-      </div>
+        style={{
+          marginTop: 30,
+          marginBottom: 30,
+          textAlign: "center",
+        }}
+      >
+        <div>
+          <a
+            href="https://open.spotify.com/playlist/0gi12rByjBf4OoOAet1vem?si=TLQwBbHURC6AnEQSfH7E-A&pt=e74ee13bd0cc193d3d03a77ebd9935e0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="fullScreenBtn">Add Songs to Playlist</button>
+          </a>
+        </div>
+        <div>
+          <Link to="/Menu">
+            <button className="fullScreenBtn">Food Menu</button>
+          </Link>
+        </div>
       </div>
     </>
   );

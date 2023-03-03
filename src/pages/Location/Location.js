@@ -52,7 +52,7 @@ function Location() {
       >
         1235, Richmond St, N6A 0C1
         <br />
-        Apt 811
+        Apt XXX
       </p>
       <div
         style={{
@@ -80,22 +80,22 @@ function Location() {
           Parking
         </span>
       </div>
-      <div style={{textAlign:'center'}}>
+      <div style={{ textAlign: "center" }}>
         <div
           className="parkingOptions"
           style={{
-            marginTop:'20px',
-            marginBottom:'10px',
-            marginRight:'auto',
-            marginLeft:'auto',
+            marginTop: "20px",
+            marginBottom: "10px",
+            marginRight: "auto",
+            marginLeft: "auto",
             width: "80%",
-            padding:'10px',
+            padding: "10px",
             backgroundColor: "white",
-            borderRadius:'7px',
-            borderStyle:'none',
+            borderRadius: "7px",
+            borderStyle: "none",
             textAlign: "center",
-
-          }}>
+          }}
+        >
           Option 1: North side of building
         </div>
         <div style={{ textAlign: "center" }}>
@@ -104,39 +104,40 @@ function Location() {
           <span className="tag">6 spots first come first serve</span>
         </div>
         <div
-        className="parkingOptions"
-        style={{
-          marginTop:'20px',
-          marginBottom:'10px',
-          marginRight:'auto',
-          marginLeft:'auto',
-          width: "80%",
-          padding:'10px',
-          backgroundColor: "white",
-          borderRadius:'7px',
-          borderStyle:'none',
-          textAlign: "center",
-        }}>
+          className="parkingOptions"
+          style={{
+            marginTop: "20px",
+            marginBottom: "10px",
+            marginRight: "auto",
+            marginLeft: "auto",
+            width: "80%",
+            padding: "10px",
+            backgroundColor: "white",
+            borderRadius: "7px",
+            borderStyle: "none",
+            textAlign: "center",
+          }}
+        >
           Option 2: Ross Park across the street
-          </div>
+        </div>
         <div style={{ textAlign: "center" }}>
           <span className="tag">Free</span>
           <span className="tag">Available before 10 pm</span>
         </div>
         <div
-        className="parkingOptions"
-        style={{
-          marginTop:'20px',
-          marginBottom:'10px',
-          marginRight:'auto',
-          marginLeft:'auto',
-          width: "80%",
-          padding:'10px',
-          backgroundColor: "white",
-          borderRadius:'7px',
-          borderStyle:'none',
-          textAlign: "center",
-        }}
+          className="parkingOptions"
+          style={{
+            marginTop: "20px",
+            marginBottom: "10px",
+            marginRight: "auto",
+            marginLeft: "auto",
+            width: "80%",
+            padding: "10px",
+            backgroundColor: "white",
+            borderRadius: "7px",
+            borderStyle: "none",
+            textAlign: "center",
+          }}
         >
           <a
             href="https://www.londonparking.preciseparklink.com/1265-richmond-street"
