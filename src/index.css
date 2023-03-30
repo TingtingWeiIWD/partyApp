@@ -26,32 +26,30 @@ h2 {
 .Chinese {
   font-family: "Noto Serif TC", serif;
 }
-.menuItem{
+.menuItem {
   text-align: center;
   color: #ffffff;
   margin-left: 15%;
   margin-right: 15%;
-  
 }
-.menuItemCh{
+.menuItemCh {
   font-family: "Noto Serif TC", serif;
   margin-top: 30px;
   font-size: larger;
-
 }
-.menuItemEn{
+.menuItemEn {
   font-family: "Thasadith", sans-serif;
   font-weight: bold;
   margin-top: 10px;
-
 }
 
-.h1,.h2 {
+.h1,
+.h2 {
   font-family: "Fugaz One", cursive;
 }
 
 .tag {
-  background-color:#f0d8d8;
+  background-color: #f0d8d8;
   font-size: smaller;
   margin: 1%;
   padding-left: 2%;
@@ -59,7 +57,7 @@ h2 {
   border-radius: 10px;
 }
 
-.parkingOptions{
+.parkingOptions {
   box-shadow: inset 0px 0px 5px rgba(86, 85, 85, 0.3);
 }
 
@@ -86,21 +84,20 @@ button {
   border: 0;
 }
 
-.fullScreenBtn{
+.fullScreenBtn {
   width: 70%;
 }
 
-
-header{
+header {
   background-color: #870000;
   height: 30px;
-  padding-left: 10px;
-  padding-top: 10px;
+  padding: 10px;
+  padding-bottom: 0;
 }
 
-.divider{
+.divider {
   font-size: small;
   margin-top: 30px;
   text-align: center;
-  color:orange
+  color: orange;
 }

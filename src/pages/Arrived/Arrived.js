@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Arrived() {
   return (
     <>
-      <Header />
+      <Header goTo="/Location" />
       <div
         style={{
           marginTop: 30,
@@ -78,7 +78,7 @@ function Arrived() {
       >
         Name: WeLoveParty
         <br />
-        Password: WeDoNotActually
+        Password: YesWeAllDo
       </p>
       <div
         style={{
@@ -98,7 +98,7 @@ function Arrived() {
         </div>
         <div>
           <Link to="/Menu">
-            <button className="fullScreenBtn">Food Menu</button>
+            <button className="fullScreenBtn">Dinner Menu</button>
           </Link>
         </div>
       </div>

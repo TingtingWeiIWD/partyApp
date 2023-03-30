@@ -12,7 +12,7 @@ function Menu() {
         paddingBottom: "50px",
       }}
     >
-      <Header />
+      <Header goTo="/Arrived" />
       <img
         src={dinner}
         alt="dinner"
@@ -105,7 +105,7 @@ function Menu() {
         <div className="menuItemEn">Spinach with Nuts</div>
       </div>
       <div className="menuItem">
-        <div className="menuItemCh">健康如意·兔兔乐园沙拉</div>
+        <div className="menuItemCh">健康如意·兔兔樂園沙拉</div>
         <div className="menuItemEn">Rabbit New Year Salad </div>
       </div>
       <div className="divider">---- 主食 · Carbs ----</div>
@@ -116,7 +116,7 @@ function Menu() {
         </div>
       </div>
       <div className="menuItem">
-      <div
+        <div
           className="menuItem"
           style={{
             marginTop: 30,

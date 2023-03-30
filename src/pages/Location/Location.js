@@ -6,12 +6,12 @@ import parkingIcon from "./icon/parking.svg";
 function Location() {
   return (
     <>
-      <Header />
+      <Header goTo="/" />
       <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.3686446277966!2d-81.26774074928984!3d43.012627201530734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eee13ab48f159%3A0xbf96c45f924644a6!2s1235%20Richmond%20St%2C%20London%2C%20ON%20N6A%200C1!5e0!3m2!1sen!2sca!4v1673767901309!5m2!1sen!2sca"
           title="Luxe London"
-          width="600"
+          width="100%"
           height="250"
           style={{ border: 0 }}
           allowFullScreen=""
