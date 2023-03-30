@@ -27,7 +27,7 @@ function Home() {
             left: "30px",
           }}
         ></img>
-          <img
+        <img
           src={firework2}
           alt="firework2"
           style={{
@@ -37,7 +37,7 @@ function Home() {
             left: "30px",
           }}
         ></img>
-          <img
+        <img
           src={firework3}
           alt="firework3"
           style={{
@@ -60,13 +60,14 @@ function Home() {
 
         <p
           style={{
-            marginLeft: 20,
-            marginRight: 20,
+            marginLeft: 30,
+            marginRight: 30,
             marginBottom: 30,
+            textAlign: "center",
           }}
         >
-          Let's celebrate the year of Rabbit with a
-          traditional Chinese New Year dinner and wrapping dumplings together!
+          Let's celebrate the year of Rabbit with a traditional Chinese New Year
+          dinner and wrapping dumplings together!
         </p>
         <div
           style={{
